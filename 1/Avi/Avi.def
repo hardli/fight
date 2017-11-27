@@ -1,0 +1,53 @@
+EXPORTS
+Avi_Test @1
+Avi_Init @2
+Avi_Close @3
+Avi_VehCount @4
+Avi_WriteLog @5
+LoadInISet @6
+StartAviAlgo @7
+StartAqcWave @8
+ImportWvPath @9
+Model_InitDevice @10
+Model_CloseDevice @11
+Model_Getinfo @12
+Model_GetState @13
+Model_Capture @14
+CleanHeadVeh @15
+CleanQueVeh @16
+
+GetMainSysSet @17
+SetMainSysSet @18
+GetMainMdlSet @19
+SetMainMdlSet @20
+SetMainVoutSet @21
+GetMainVoutSet @22
+
+InitEngine @23
+ReLoadEngine @24
+ExitEngine @25
+SaveAllPara @26 
+SaveModelPara @27
+SaveLaserPara @28
+SaveSysPara @29
+SaveVoutPara @30
+SaveWvFilePara @31
+SaveCamPara @32
+SaveQuePara @33
+
+GetMainLaserSet @34
+SetMainLaserSet @35
+RegMainVReport @36
+RegMainPlotIm @37
+PreSaveWave @38
+
+WjVr_InitDevice @39
+WjVr_GetState @40
+WjVr_ClearOne @41
+WjVr_GetVehicleCount @42 
+WjVr_GetVehicleData @43
+WjVr_EndVehicle  @44
+WjVr_Close @45
+WjVr_GetCoID @46
+WjVr_GetPcl @47
+WjVr_FlushQueue @48

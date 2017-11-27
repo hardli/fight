@@ -1,0 +1,149 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Avi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13D.tmp" with contents
+[
+/nologo /MD /W3 /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "Avi_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Avi.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_Algo.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_AxleCheck.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_Classifier.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_FeatureCal.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_MainProc.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_MathProc.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_SpeCheck.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_Plot.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_Main.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_Queue.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\IniProc.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\JGProxy.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\LmdsProc.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\NetMgr.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Camera.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_DB.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_SvWv.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13E.tmp" with contents
+[
+/nologo /MD /W3 /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "Avi_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Avi.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13F.tmp" with contents
+[
+/nologo /dll /incremental:yes /pdb:"Debug/Avi.pdb" /debug /machine:I386 /nodefaultlib:"libcmtd.lib" /def:".\Avi.def" /out:"Debug/Avi.dll" /implib:"Debug/Avi.lib" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\Avi_Algo.obj"
+".\Debug\Avi_AxleCheck.obj"
+".\Debug\Avi_Classifier.obj"
+".\Debug\Avi_FeatureCal.obj"
+".\Debug\Avi_MainProc.obj"
+".\Debug\Avi_MathProc.obj"
+".\Debug\Avi_SpeCheck.obj"
+".\Debug\Avi_Plot.obj"
+".\Debug\Avi_Main.obj"
+".\Debug\Avi_Queue.obj"
+".\Debug\IniProc.obj"
+".\Debug\JGProxy.obj"
+".\Debug\LmdsProc.obj"
+".\Debug\NetMgr.obj"
+".\Debug\Camera.obj"
+".\Debug\Avi_DB.obj"
+".\Debug\Avi_SvWv.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13F.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Avi_Algo.cpp
+Avi_AxleCheck.cpp
+Avi_Classifier.cpp
+Avi_FeatureCal.cpp
+C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_FeatureCal.cpp(635) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_FeatureCal.cpp(2946) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_FeatureCal.cpp(2953) : warning C4018: '<' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_FeatureCal.cpp(3689) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+Avi_MainProc.cpp
+Avi_MathProc.cpp
+Avi_SpeCheck.cpp
+C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_SpeCheck.cpp(830) : warning C4018: '>' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_SpeCheck.cpp(925) : warning C4018: '>' : signed/unsigned mismatch
+C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Avi_SpeCheck.cpp(1065) : warning C4018: '>' : signed/unsigned mismatch
+Avi_Plot.cpp
+Avi_Main.cpp
+Avi_Queue.cpp
+Using Latest ADO
+IniProc.cpp
+JGProxy.cpp
+LmdsProc.cpp
+NetMgr.cpp
+Camera.cpp
+Avi_DB.cpp
+Using Latest ADO
+c:\documents and settings\administrator\桌面\车型识别\车型识别(合并版)1120-xp有问题\avi\debug\msado15.tlh(478) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+c:\documents and settings\administrator\桌面\车型识别\车型识别(合并版)1120-xp有问题\avi\debug\msadox.tlh(1203) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Avi_SvWv.cpp
+Generating Code...
+Linking...
+   Creating library Debug/Avi.lib and object Debug/Avi.exp
+LINK : warning LNK4098: defaultlib "MSVCRT" conflicts with use of other libs; use /NODEFAULTLIB:library
+<h3>
+--------------------Configuration: AVIS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\Avi\Debug/AVIS.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\AVIS\AVIS.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP143.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"..\Avi\Debug/" /Fp"..\Avi\Debug/AVIS.pch" /Yu"stdafx.h" /Fo"..\Avi\Debug/" /Fd"..\Avi\Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\AVIS\AlgoSet.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\AVIS\AVIS.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\AVIS\AVISDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\AVIS\CamSet.cpp"
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\AVIS\JGMan.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP143.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP144.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"..\Avi\Debug/" /Fp"..\Avi\Debug/AVIS.pch" /Yc"stdafx.h" /Fo"..\Avi\Debug/" /Fd"..\Avi\Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\AVIS\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP144.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP145.tmp" with contents
+[
+..\Avi\Debug\Avi.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\Avi\Debug/AVIS.pdb" /debug /machine:I386 /out:"..\Avi\Debug/AVIS.exe" /pdbtype:sept 
+"\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Debug\AlgoSet.obj"
+"\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Debug\AVIS.obj"
+"\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Debug\AVISDlg.obj"
+"\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Debug\CamSet.obj"
+"\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Debug\JGMan.obj"
+"\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Debug\StdAfx.obj"
+"\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Debug\AVIS.res"
+"\Documents and Settings\Administrator\桌面\车型识别\车型识别(合并版)1120-XP有问题\Avi\Debug\Avi.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP145.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AlgoSet.cpp
+AVIS.cpp
+AVISDlg.cpp
+CamSet.cpp
+JGMan.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+AVIS.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

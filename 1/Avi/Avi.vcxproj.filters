@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c8722a0f-465d-45f6-9b86-aea1df97980b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ced3b2d6-a44d-4f36-93db-518df9dac611}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Avi_Algo">
+      <UniqueIdentifier>{6f0e35b3-eb48-4b79-83eb-d88ca47f9643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Avi_Plot">
+      <UniqueIdentifier>{61776066-2153-4e19-a7e1-2eccd705675c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Avi_Main">
+      <UniqueIdentifier>{2067280e-600e-41c3-847c-2816925de633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Avi_Camera">
+      <UniqueIdentifier>{bba4ee55-1323-4bbe-aaa6-93959f82ae6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Avi_DB">
+      <UniqueIdentifier>{13aa0329-a341-4b4a-892c-f7701263b9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Avi_SvWv">
+      <UniqueIdentifier>{1787e0a4-fef6-459c-b1bd-ea01abf2399a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8ec2aa43-eec1-4058-8a0b-03968f327e6b}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_Algo.cpp">
+      <Filter>Avi_Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_AxleCheck.cpp">
+      <Filter>Avi_Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_Classifier.cpp">
+      <Filter>Avi_Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_FeatureCal.cpp">
+      <Filter>Avi_Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_MainProc.cpp">
+      <Filter>Avi_Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_MathProc.cpp">
+      <Filter>Avi_Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_SpeCheck.cpp">
+      <Filter>Avi_Algo</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_Plot.cpp">
+      <Filter>Avi_Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_Main.cpp">
+      <Filter>Avi_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_Queue.cpp">
+      <Filter>Avi_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="IniProc.cpp">
+      <Filter>Avi_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="JGProxy.cpp">
+      <Filter>Avi_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="LmdsProc.cpp">
+      <Filter>Avi_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMgr.cpp">
+      <Filter>Avi_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Avi_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_DB.cpp">
+      <Filter>Avi_DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Avi_SvWv.cpp">
+      <Filter>Avi_SvWv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Avi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_Comm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_Algo.h">
+      <Filter>Avi_Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_AxleCheck.h">
+      <Filter>Avi_Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_Classifier.h">
+      <Filter>Avi_Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_FeatureCal.h">
+      <Filter>Avi_Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_MainProc.h">
+      <Filter>Avi_Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_MathProc.h">
+      <Filter>Avi_Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_SpeCheck.h">
+      <Filter>Avi_Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Avi_Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="JZGlobal.h">
+      <Filter>Avi_Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="JZStructure.h">
+      <Filter>Avi_Algo</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_Plot.h">
+      <Filter>Avi_Plot</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_Main.h">
+      <Filter>Avi_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_Queue.h">
+      <Filter>Avi_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="IniProc.h">
+      <Filter>Avi_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="JGProxy.h">
+      <Filter>Avi_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="LmdsProc.h">
+      <Filter>Avi_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMgr.h">
+      <Filter>Avi_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Avi_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_DB.h">
+      <Filter>Avi_DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Avi_SvWv.h">
+      <Filter>Avi_SvWv</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Avi.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ProjLog.txt" />
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

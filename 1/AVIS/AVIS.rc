@@ -1,0 +1,427 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AVIS.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\AVIS.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 AVIS"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "AVIS 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2017",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_AVIS_DIALOG DIALOGEX 0, 0, 275, 245
+STYLE DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "新车型识别系统"
+MENU IDR_MAINMENU
+FONT 9, "System", 0, 0, 0x1
+BEGIN
+    CONTROL         "List3",IDC_AlgoList,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,7,12,255,108
+    CONTROL         "",IDC_PLOTIM,"Static",SS_BITMAP | SS_CENTERIMAGE,9,133,
+                    122,93,WS_EX_STATICEDGE
+    CONTROL         "",IDC_LOG,"RICHEDIT",ES_MULTILINE | WS_BORDER | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,144,133,120,98
+    GROUPBOX        "操作日志",IDC_STATIC,139,124,130,116
+    GROUPBOX        "算法出车",IDC_STATIC,5,2,263,122
+    GROUPBOX        "过车绘图",IDC_STATIC,5,124,130,116
+    CTEXT           "扫描图像",IDC_PlotName,19,227,100,8,SS_CENTERIMAGE
+END
+
+IDD_ALGSET DIALOG DISCARDABLE  0, 0, 212, 195
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "引擎设置"
+FONT 9, "System"
+BEGIN
+    PUSHBUTTON      "放弃修改",IDC_ALGEXIT,111,175,50,14
+    PUSHBUTTON      "确认修改",IDC_ALGSET,53,175,50,14
+    EDITTEXT        IDC_JGHEIGHT,59,14,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_STARTX,59,32,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LANEWD,60,51,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAXHT,59,68,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ZEROPOS,153,14,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ISLANWD,154,33,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ISLANHT,154,52,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EMPTYFR,59,100,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HIFRAM,59,117,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LWFRAM,59,134,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LVFRAM,59,152,40,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_GRATPOS,156,98,42,30,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_GRATHT,156,119,40,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_A3OUT,155,139,42,30,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_AXREPORT,155,155,42,30,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "激光高度值",IDC_STATIC,13,17,41,8
+    LTEXT           "距边界距离",IDC_STATIC,14,35,41,8
+    LTEXT           "车道宽度值",IDC_STATIC,15,54,41,8
+    GROUPBOX        "模型参数",IDC_STATIC,6,3,196,83
+    GROUPBOX        "出车参数",IDC_STATIC,6,86,196,85
+    LTEXT           "激光中心点",IDC_STATIC,107,17,41,8
+    LTEXT           "安全岛宽度",IDC_STATIC,108,36,41,8
+    LTEXT           "安全岛高度",IDC_STATIC,108,55,41,8
+    LTEXT           "通道净空高",IDC_STATIC,14,71,41,8
+    LTEXT           "收尾空白帧",IDC_STATIC,14,103,41,8
+    LTEXT           "高阈值触发",IDC_STATIC,14,120,41,8
+    LTEXT           "低阈值触发",IDC_STATIC,14,137,41,8
+    LTEXT           "离开时触发",IDC_STATIC,14,155,41,8
+    LTEXT           "光栅的位置",IDC_STATIC,111,101,41,8
+    LTEXT           "光栅触发限",IDC_STATIC,111,122,41,8
+    LTEXT           "超三轴出车",IDC_STATIC,110,140,41,8
+    LTEXT           "过单轴上报",IDC_STATIC,110,155,41,8
+END
+
+IDD_LSMAN DIALOG DISCARDABLE  0, 0, 159, 114
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "激光管理"
+FONT 9, "System"
+BEGIN
+    CONTROL         "单帧要数",IDC_RADIO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,59,9,45,10
+    CONTROL         "连续要数",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,105,9,
+                    45,10
+    CONTROL         "IPAddress1",IDC_IP0,"SysIPAddress32",WS_TABSTOP,55,24,
+                    93,12
+    EDITTEXT        IDC_PORT0,55,38,40,12,ES_AUTOHSCROLL
+    CONTROL         "IPAddress1",IDC_IP1,"SysIPAddress32",WS_TABSTOP,55,58,
+                    93,12
+    EDITTEXT        IDC_PORT1,55,72,40,12,ES_AUTOHSCROLL
+    RTEXT           "采集方式",IDC_STATIC,8,10,44,8
+    RTEXT           "激光0IP地址",IDC_STATIC,8,26,44,8
+    RTEXT           "激光0端口",IDC_STATIC,8,40,44,8
+    RTEXT           "激光1IP地址",IDC_STATIC,8,60,44,8
+    RTEXT           "激光1端口",IDC_STATIC,8,74,44,8
+    GROUPBOX        "",IDC_STATIC,1,0,155,93
+    GROUPBOX        "",IDC_STATIC,7,17,146,37
+    GROUPBOX        "",IDC_STATIC,7,52,146,37
+    PUSHBUTTON      "确认修改",IDC_COMFIRM,21,95,50,14
+    PUSHBUTTON      "放弃修改",IDC_Exit,81,95,50,14
+END
+
+IDD_CamSet DIALOG DISCARDABLE  0, 0, 251, 138
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "相机设置"
+FONT 9, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定修改",IDOK,80,116,50,14
+    PUSHBUTTON      "放弃修改",IDCANCEL,135,116,50,14
+    CONTROL         "ON",IDC_CamEnlable0,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,19,18,26,10
+    CONTROL         "IPAddress1",IDC_CamIP0,"SysIPAddress32",WS_TABSTOP,64,
+                    16,100,15
+    LTEXT           "IP0:",IDC_STATIC,46,19,14,8
+    LTEXT           "Port:",IDC_STATIC,173,19,16,8
+    EDITTEXT        IDC_CamPort0,192,16,40,14,ES_AUTOHSCROLL
+    LTEXT           "UserName:",IDC_STATIC,24,41,38,8
+    EDITTEXT        IDC_CamUser0,65,38,40,14,ES_AUTOHSCROLL
+    LTEXT           "PassWord:",IDC_STATIC,152,41,37,8
+    EDITTEXT        IDC_CamPassWord0,192,38,40,14,ES_AUTOHSCROLL
+    CONTROL         "ON",IDC_CamEnlable1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,21,75,26,10
+    CONTROL         "IPAddress1",IDC_CamIP1,"SysIPAddress32",WS_TABSTOP,66,
+                    73,100,15
+    LTEXT           "IP1:",IDC_STATIC,48,76,14,8
+    LTEXT           "Port:",IDC_STATIC,175,76,16,8
+    EDITTEXT        IDC_CamPort1,194,73,40,14,ES_AUTOHSCROLL
+    LTEXT           "UserName:",IDC_STATIC,22,98,38,8
+    EDITTEXT        IDC_CamUser1,66,95,50,14,ES_AUTOHSCROLL
+    LTEXT           "PassWord:",IDC_STATIC,151,98,37,8
+    EDITTEXT        IDC_CamPassWord1,194,95,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "相机0",IDC_STATIC,9,4,233,54
+    GROUPBOX        "相机1",IDC_STATIC,8,63,233,50
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "AVIS Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "AVIS\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2017\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "AVIS.EXE\0"
+            VALUE "ProductName", "AVIS 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_AVIS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 274
+        BOTTOMMARGIN, 244
+    END
+
+    IDD_ALGSET, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 209
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_LSMAN, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 156
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_CamSet, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 247
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 135
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "系统管理"
+    BEGIN
+        POPUP "存库设置"
+        BEGIN
+            MENUITEM "开启存储",                    ID_ENSVDB
+            MENUITEM SEPARATOR
+            MENUITEM "关闭存储",                    ID_DISSVDB
+        END
+        MENUITEM SEPARATOR
+        POPUP "绘图设置"
+        BEGIN
+            MENUITEM "绘图使能",                    ID_ENPLOT
+            MENUITEM SEPARATOR
+            MENUITEM "关闭绘图",                    IDC_DISPLOT
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "重载配置",                    IDC_RLINI
+        MENUITEM SEPARATOR
+        POPUP "引擎设置"
+        BEGIN
+            MENUITEM "启动引擎",                    IDC_STALGO
+            MENUITEM SEPARATOR
+            MENUITEM "关闭引擎",                    IDC_CLALGO
+        END
+        MENUITEM SEPARATOR
+        POPUP "波形设置"
+        BEGIN
+            MENUITEM "开启存储",                    ID_ENSVWV
+            MENUITEM SEPARATOR
+            MENUITEM "关闭存储",                    ID_DISSVWV
+        END
+    END
+    POPUP "算法调试"
+    BEGIN
+        MENUITEM "设置引擎",                    ID_SETALGO
+        MENUITEM SEPARATOR
+        MENUITEM "导入波形",                    IDC_IMPWV
+        MENUITEM SEPARATOR
+        MENUITEM "模拟取卡",                    ID_SimGetCard
+    END
+    POPUP "激光管理"
+    BEGIN
+        MENUITEM "激光设置",                    IDC_LASERMAN
+        MENUITEM SEPARATOR
+        MENUITEM "模拟运行",                    IDC_SOFTMODE
+        MENUITEM SEPARATOR
+        MENUITEM "文件运行",                    IDC_FILEMODE
+        MENUITEM SEPARATOR
+        MENUITEM "现场运行",                    IDC_TRUEMODE
+    END
+    POPUP "相机管理"
+    BEGIN
+        MENUITEM "相机设置",                    ID_CAMMAN
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ALGSET DLGINIT
+BEGIN
+    IDC_GRATPOS, 0x403, 9, 0
+0xe2b9, 0xa4d5, 0xdad4, 0xf3ba, "\000" 
+    IDC_GRATPOS, 0x403, 9, 0
+0xe2b9, 0xa4d5, 0xdad4, 0xb0c7, "\000" 
+    IDC_A3OUT, 0x403, 3, 0
+0xf1b7, "\000" 
+    IDC_A3OUT, 0x403, 3, 0
+0xc7ca, "\000" 
+    IDC_AXREPORT, 0x403, 3, 0
+0xf1b7, "\000" 
+    IDC_AXREPORT, 0x403, 3, 0
+0xc7ca, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 AVIS(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\AVIS.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
